@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Order Form {{order_ref}}</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px;text-align:left}</style>
+</head><body>
+<h1>Order Form {{order_ref}}</h1>
+<p><b>Customer:</b> {{customer}}<br><b>Valid until:</b> {{valid_until}}</p>
+<table><thead><tr><th>Item</th><th>Qty</th><th>List</th><th>Discount</th><th>Net</th></tr></thead>
+<tbody>
+{{line_rows}}
+</tbody></table>
+<p><b>List total:</b> {{list_total}}<br><b>Net total:</b> {{net_total}} ({{discount_pct}}% blended discount)</p>
+<h2>Terms</h2>
+<ul><li>Payment: net {{payment_days}} days</li><li>Auto-renew: {{auto_renew}}</li><li>Internal approval status: {{approval_status}}</li></ul>
+<p><i>Sample document generated from synthetic data. Not a legal contract.</i></p>
+</body></html>

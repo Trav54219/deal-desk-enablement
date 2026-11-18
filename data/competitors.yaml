@@ -1,0 +1,36 @@
+# Fictional competitors. Not based on any real vendor.
+our_product: Northwind Platform
+competitors:
+  - name: Contoso Suite
+    positioning: Broad suite aimed at large IT-led buyers.
+    strengths:
+      - Wide feature surface
+      - Large partner network
+    weaknesses:
+      - Long implementation timelines
+      - Per-module pricing adds up
+    landmines:
+      - "Ask how many modules a typical customer licenses to reach our capability set."
+    objections:
+      - objection: "Contoso is the safe choice."
+        response: "Safe on breadth. Ask the buyer what time-to-value they need and compare implementation plans side by side."
+    proof_points:
+      - "case-study-fintech"
+      - "roi-calculator"
+    discount_guidance: "Hold at manager-level discount; lead with value before price."
+  - name: Fabrikam Lite
+    positioning: Low-cost entry tool for small teams.
+    strengths:
+      - Low sticker price
+      - Quick self-serve start
+    weaknesses:
+      - Limited reporting
+      - No enterprise controls
+    landmines:
+      - "Ask what happens when they need audit logs or SSO."
+    objections:
+      - objection: "Fabrikam is half the price."
+        response: "Compare total cost including the add-ons they will need at their size, not sticker price."
+    proof_points:
+      - "security-whitepaper"
+    discount_guidance: "Do not match price; offer a smaller starter package instead."
